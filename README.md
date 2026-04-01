@@ -4,14 +4,14 @@
 
 | Loại | Easy | Medium | Hard | Tổng |
 |------|------|--------|------|------|
-| Algorithm | 0 | 0 | 0 | 0 |
+| Algorithm | 1 | 0 | 0 | 0 |
 | SQL | 0 | 0 | 0 | 0 |
 
 ## Nhật ký giải bài
 
 | # | Ngày | Bài | Loại | Độ khó | Link |
 |---|------|-----|------|--------|------|
-| 1 | 2026-03-31 | Two Sum | Algorithm | Easy | [Lời giải](algorithms/easy/001-two-sum.js) |
+| 1 | 2026-04-01 | Two Sum | Algorithm | Easy | [Lời giải](algorithms/easy/001-two-sum.js) |
 
 ## Cấu trúc
 
@@ -34,10 +34,9 @@ leetcode-practice/
 ```
 1. Đề bài + Ví dụ
 2. Phân tích các cách giải
-3. Dry run (chạy tay)
-4. Code (Brute Force → Tối ưu)
-5. Complexity Analysis (Time + Space)
-6. Bài học rút ra
+3. Code (Brute Force → Tối ưu)
+4. Complexity Analysis (Time + Space)
+5. Bài học rút ra
 ```
 
 ## Mục tiêu
