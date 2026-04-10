@@ -37,10 +37,10 @@
 //============ CODE CÁCH 1 =================
 
 function twoSum(nums, target) {
-    for (let i = 0; i < nums.length; i++){
-        for (let j = i + 1; j < nums.length; j++){
-            if (nums[i] + nums[j] === target ) {
-                return [i,j];
+    for (let i = 0; i < nums.length; i++) {
+        for (let j = i + 1; j < nums.length; j++) {
+            if (nums[i] + nums[j] === target) {
+                return [i, j];
             }
         }
     }
@@ -57,10 +57,10 @@ console.log(twoSum([2, 7, 11, 15], 9));
 
 // ================= CODE CÁCH 2 =================
 
-function twoSumHashMap(nums, target){
-    const numMap = new Map();
+function twoSumHashMap(nums, target) {
+    const numMap = new Map(); //
 
-    for (let i = 0; i < nums.length; i++ ){
+    for (let i = 0; i < nums.length; i++) {
         const need = target - nums[i]
 
         if (numMap.has(need)) {
@@ -72,9 +72,41 @@ function twoSumHashMap(nums, target){
 }
 console.log(twoSumHashMap([2, 7, 11, 15], 18));
 
-/**
- * bài học rút ra
- * - Hash Map = bộ nhớ cho vòng lặp
- *    -> Thay vì quên hết sau mỗi bước, Map giúp nhớ lại những gì đã duyệt
- *    -> Không cần quay lại duyệt lần 2 -> giảm từ 2 vòng for xuống 1
- */
+// input 2, 7, 11, 15
+// target 18 
+// tạo map rỗng {}
+// bắt đầu vòng lặp i = 0 num[0] = 2
+// need = 18 - num[0]= 18 -2 = 16
+// nếu numMap.has(16) -> false
+// lưa vào map  numMap.set(2, 0) -> map = { 2=>0}
+// i = 1 num[1] = 7
+// need = 18 - num[1]= 18 - 7 = 11
+// numMap.has(11) -> false 
+// lưa vào map nummap.set(7, 1) -> map = { 2=>0; 7 => 1}
+// i = 2 
+
+//====================== Cách 3 =====================
+
+function twoSumPointer(nums, target) {
+    const arr = nums.map((num, i) => ({ value: num, idx: i}));
+
+    arr.sort(function(a,b) {
+        return a.value - b.value
+    })
+
+    let left = 0
+    let right = arr.length - 1
+
+    while (left < right) {
+        const sum = arr[left].value + arr[right].value
+        if (sum === target) {
+            return [arr[left].idx, arr[right].idx]
+        } else if (sum < target) {
+            left++
+        } else {
+            right--
+        }
+    }
+    return []
+}
+console.log(twoSumPointer([6, 2, 15, 11], 17));
