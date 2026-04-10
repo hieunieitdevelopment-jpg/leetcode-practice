@@ -88,7 +88,9 @@ console.log(twoSumHashMap([2, 7, 11, 15], 18));
 //====================== Cách 3 =====================
 
 function twoSumPointer(nums, target) {
-    const arr = nums.map((num, i) => ({ value: num, idx: i}));
+    const arr = nums.map(function(num, i){
+        return{ value: num, idx: i}
+    })
 
     arr.sort(function(a,b) {
         return a.value - b.value
@@ -109,4 +111,4 @@ function twoSumPointer(nums, target) {
     }
     return []
 }
-console.log(twoSumPointer([6, 2, 15, 11], 17));
+console.log(twoSumPointer([6, 11, 15, 2], 13));
