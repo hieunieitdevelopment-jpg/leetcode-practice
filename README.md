@@ -4,7 +4,7 @@
 
 | Loại | Easy | Medium | Hard | Tổng |
 |------|------|--------|------|------|
-| Algorithm | 1 | 0 | 0 | 0 |
+| Algorithm | 1 | 1 | 0 | 2 |
 | SQL | 0 | 0 | 0 | 0 |
 
 ## Nhật ký giải bài
@@ -12,6 +12,7 @@
 | # | Ngày | Bài | Loại | Độ khó | Link |
 |---|------|-----|------|--------|------|
 | 1 | 2026-04-01 | Two Sum | Algorithm | Easy | [Lời giải](algorithms/easy/001-two-sum.js) |
+| 2 | 2026-04-13 | Add Two Numbers | Algorithm | Medium | [Lời giải](algorithms/medium/002-add-two-numbers.js) |
 
 ## Cấu trúc
 
