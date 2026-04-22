@@ -4,7 +4,7 @@
 
 | Loại | Easy | Medium | Hard | Tổng |
 |------|------|--------|------|------|
-| Algorithm | 1 | 2 | 0 | 2 |
+| Algorithm | 2 | 2 | 0 | 2 |
 | SQL | 0 | 0 | 0 | 0 |
 
 ## Nhật ký giải bài
@@ -14,6 +14,7 @@
 | 1 | 2026-04-01 | Two Sum | Algorithm | Easy | [Lời giải](algorithms/easy/001-two-sum.js) |
 | 2 | 2026-04-13 | Add Two Numbers | Algorithm | Medium | [Lời giải](algorithms/medium/002-add-two-numbers.js) |
 | 3 | 2026-04-17 | Longest Substring Without Repeating Characters | Algorithm | Medium | [Lời giải](algorithms/medium/003-longest-substrings.js) |
+| 4 | 2026-04-22 | Palindrome Number | Algorithm | Easy | [Lời giải](algorithms/easy/009-palindrome-number.js) |
 
 ## Cấu trúc
 
