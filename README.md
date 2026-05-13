@@ -16,6 +16,8 @@
 | 3 | 2026-04-17 | Longest Substring Without Repeating Characters | Algorithm | Medium | [Lời giải](algorithms/medium/003-longest-substrings.js) |
 | 4 | 2026-04-22 | Palindrome Number | Algorithm | Easy | [Lời giải](algorithms/easy/009-palindrome-number.js) |
 | 5 | 2026-04-23 | Roman to Integer | Algorithm | Easy | [Lời giải](algorithms/easy/013-roman-to-integer.js) |
+| 6 | 2026-04-25 | Valid Parentheses | Algorithm | Easy | [Lời giải](algorithms/easy/020-valid-parentheses.js) |
+| 7 | 2026-04-25 | Merge Two Sorted Lists | Algorithm | Easy | [Lời giải](algorithms/easy/021-merge-sorted-lists.js) |
 
 ## Cấu trúc
 
