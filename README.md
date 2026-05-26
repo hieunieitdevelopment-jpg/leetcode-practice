@@ -4,7 +4,7 @@
 
 | Loại | Easy | Medium | Hard | Tổng |
 |------|------|--------|------|------|
-| Algorithm | 3 | 2 | 0 | 5 |
+| Algorithm | 6 | 2 | 0 | 8 |
 | SQL | 0 | 0 | 0 | 0 |
 
 ## Nhật ký giải bài
@@ -18,6 +18,8 @@
 | 5 | 2026-04-23 | Roman to Integer | Algorithm | Easy | [Lời giải](algorithms/easy/013-roman-to-integer.js) |
 | 6 | 2026-04-25 | Valid Parentheses | Algorithm | Easy | [Lời giải](algorithms/easy/020-valid-parentheses.js) |
 | 7 | 2026-04-25 | Merge Two Sorted Lists | Algorithm | Easy | [Lời giải](algorithms/easy/021-merge-sorted-lists.js) |
+| 8 | 2026-04-25 | Remove Duplicates from Sorted Array | Algorithm | Easy | [Lời giải](algorithms/easy/026-remove-duplicates-from-sorted-array.js) |
+| 9 | 2026-05-26 | Remove Element | Algorithm | Easy | [Lời giải](algorithms/easy/027-remove-element.js) |
 
 ## Cấu trúc
 
