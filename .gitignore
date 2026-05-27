@@ -4,5 +4,7 @@ node_modules/
 notes/026-remove-duplicates-from-sorted-array.md
 notes/027-remove-element.md
 notes/242-valid-anagram.md
+notes/217-contains-duplicate.md
+notes/cheat-sheet-methods.md
 automation/
 visualizer.html

@@ -4,7 +4,7 @@
 
 | Loại | Easy | Medium | Hard | Tổng |
 |------|------|--------|------|------|
-| Algorithm | 7 | 2 | 0 | 9 |
+| Algorithm | 8 | 2 | 0 | 10 |
 | SQL | 0 | 0 | 0 | 0 |
 
 ## Nhật ký giải bài
@@ -20,7 +20,12 @@
 | 7 | 2026-04-25 | Merge Two Sorted Lists | Algorithm | Easy | [Lời giải](algorithms/easy/021-merge-sorted-lists.js) |
 | 8 | 2026-04-25 | Remove Duplicates from Sorted Array | Algorithm | Easy | [Lời giải](algorithms/easy/026-remove-duplicates-from-sorted-array.js) |
 | 9 | 2026-05-26 | Remove Element | Algorithm | Easy | [Lời giải](algorithms/easy/027-remove-element.js) |
-| 10 | 2026-05-28 | Valid Anagram | Algorithm | Easy | [Lời giải](algorithms/easy/242-valid-anagram.js) |
+| 10 | 2026-05-27 | Valid Anagram | Algorithm | Easy | [Lời giải](algorithms/easy/242-valid-anagram.js) |
+| 11 | 2026-05-27 | Contains Duplicate | Algorithm | Easy | [Lời giải](algorithms/easy/217-contains-duplicate.js) |
+
+
+
+
 
 ## Cấu trúc
 
