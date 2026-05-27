@@ -2,3 +2,7 @@ node_modules/
 .DS_Store
 .env
 notes/026-remove-duplicates-from-sorted-array.md
+notes/027-remove-element.md
+notes/242-valid-anagram.md
+automation/
+visualizer.html
